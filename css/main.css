@@ -170,17 +170,40 @@ nav a:hover {
     float: left;
 }
 
-#team-logo-b {
+#team-logo-ft {
     max-width: 150px;
     display: block;
     float: left;
 }
 
+article a {
+    color: #00F54B;
+    text-decoration: none;
+}
 
+article a:hover {
+    text-decoration: underline;
+}
 
+article a:visited {
+    color: #00AAF5;
+}
 
+article p {
+    text-align: justify;
+}
 
+article li {
+    margin-left: 5%;
+    padding-left: 1%;
+}
 
+article img {
+    width: 50%;
+    max-width: 70%;
+    float: left;
+    padding-right: 2%;
+}
 
 
 
