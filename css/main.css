@@ -226,7 +226,9 @@ aside a:visited {
 aside p {
     text-align: justify;
 }
-
+/*------------------------------
+= Botón de descarga
+------------------------------*/
 .btn-index {
     display: inline-block;
     float: right;
@@ -246,6 +248,51 @@ aside p {
     background: #00AAF5;
     color: #000;
 }
+/*------------------------------
+= Items de descarga
+------------------------------*/
+.item {
+    border-top: 20px solid #00F54B;
+    background-color: #000;
+    padding: 0px 2% 2%;
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+
+button img {
+    max-height: 32px;
+    max-width: 32px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    float: right;
+    margin: 4px;
+    background: #151515;
+    border-style: solid;
+    border-color: #FFF;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background: #00F54B;
+    border-color: #00F54B;
+    color: #000;
+}
+button:hover img{
+    color: #000;
+    -webkit-filter: invert(100%);
+}
+
+/*------------------------------
+= FancyBox para la galeria de imagenes
+------------------------------*/
 .fancybox img {
     width: 20%;
     min-width: 100px;
@@ -407,6 +454,7 @@ textarea {
         float: right;
         width: 28%;
     }
+
 }
 
 @media only screen and (min-width: 1140px) {
