@@ -246,6 +246,10 @@ aside p {
     background: #00AAF5;
     color: #000;
 }
+.fancybox img {
+    width: 20%;
+    min-width: 100px;
+}
 
 /*------------------------------
 = Formulario de contacto
