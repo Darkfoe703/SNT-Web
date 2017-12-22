@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="./js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -24,7 +24,7 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <img id="team-logo" src="img/blacksun_logo.png" title="Sol Negro Team" alt="Sol Negro Team">
+                <a href="./index.html"><img id="team-logo" src="img/blacksun_logo.png" title="Sol Negro Team" alt="Sol Negro Team"></a>
                 
                 <h1 class="title"></h1>
                 <nav>
@@ -43,24 +43,30 @@
 
                 <article>
                     <header>
-                        <h1>El Sol Negro Team</h1>
-                        <p>El Sol Negro Team, es el emprendimiento de un grupo de personas aficionadas a la programación. Con conocimientos básicos se intenta brindar soluciones informáticas a problemas sencillos y, acercarlos a los usuarios de manera simple y accesible <a href="./pages/nosotros.html">continuar leyendo...</a></p>
-                    </header>
-                    <section>
-                        <h2><a href="./pages/ip-por-email.html">IP por E-mail</a></h2>
-                        <p><img src="./img/ip-email/01.png" alt="IP por E-mail"> No todos confiamos en servicios en la nube a la hora de acceder a nuestros datos.</p>
-                        <p>Tampoco puedes, a veces, permitirte un servicio VPN para conectar con tu ordenador bajo un servicio económico de IP estática.
+                        <h1><a href="./pages/ip-por-email.html">IP por E-mail</a></h1>
+                        <p>No todos confiamos en servicios en la nube a la hora de acceder a nuestros datos.</p>
+                        <p>Tampoco puedes, a veces, permitirte un servicio VPN para conectar con tu ordenador bajo un servicio económico de IP estática.<img src="./img/ip-email/01.png" alt="IP por E-mail">
                         Los servicios VPN de pago pueden ser muy efectivos, pero también realmente costosos, sobre todo en aquellos países con grandes índices de inflación, lo que convierte unos pocos dólares, en un verdadero presupuesto. También existen servicios VPN gratuitos, pero varios de ellos no son del todo fiables.</p>
                         <p>Esta es la sencilla solución que brinda "IP por E-mail" en sus distintas versiones. Es capaz de detectar la nueva dirección IP pública cada 6, 12 o 24 hs. y enviarla a la dirección de correo electrónico que se prefiera. Con la configuración adecuada de tu ordenador podrás conectarte a él por SSH, FTP, o aquellos juegos que así lo permitan ("Minecraft" Mojang © 2009-2017. solo por poner un ejemplo).</p>
                         <p>Otra de las características que hace a "IP por E-mail" una buena solución es su disponibilidad en las plataformas de GNU/Linux y Windows. Además de presentarse en dos versiones para cada plataforma:</p>
                         <p>
                             <li>
                             por un lado la versión compilada y lista para usar, bajo licencia CreativeCommons,
-                            </li>
+                            </li><br>
                             <li>
                             y por otro, la versión de código abierto, bajo licencia GPLv3+, lo que la hace apta para que cada usuario pueda estudiarla, mejorarla y/o adaptarla a sus propias necesidades.
                             </li>
                         </p>
+                        <p>
+                            <a href="./pages/ip-por-email.html">Continuar leyendo...</a>
+                            <form action="./pages/ip-por-email.html">
+                                <input class="btn-index" type="submit" value="Descargar">
+                            </form>
+                        </p>
+                        
+                    </header>
+                    <section>
+                        <h2></h2>
                     </section>
                     <section>
                         <h2></h2>
@@ -74,13 +80,22 @@
 
                 <aside>
                     <h3>¿Quiénes somos?</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
+                    <p>El Sol Negro Team, es el emprendimiento de un grupo de personas aficionadas a la programación. Con conocimientos básicos se intenta brindar soluciones informáticas a problemas sencillos y, acercarlos a los usuarios de manera simple y accesible <a href="./pages/nosotros.html">continuar leyendo...</a></p>
+                    <h3>Redes Sociales</h3>
+                    <div class="btredes">
+                        <a href="#"><img class="redes" src="./img/social/mail.png" alt="Email del Sol Negro Team" title="Email del Sol Negro Team"></a>
+                        <a href="#"><img class="redes" src="./img/social/twitter.png" alt="Twitter del Sol Negro Team" title="Twitter del Sol Negro Team"></a>
+                        <a href="#"><img class="redes" src="./img/social/fb.png" alt="Facebook del Sol Negro Team" title="Facebook del Sol Negro Team"></a>
+                        <a href="#"><img class="redes" src="./img/social/gplus.png" alt="G+ del Sol Negro Team" title="G+ del Sol Negro Team"></a>
+                        <a href="#"><img class="redes" src="./img/social/rss.png" alt="Feed del Sol Negro Team" title="Feed del Sol Negro Team"></a>
+                        <br></br>
+                    </div>
                 </aside>
 
                 <aside>
                     <h3>Ayudanos a mejorar</h3>
                     <p>
-                        adsasdasdasd
+                        <a href="./pages/donaciones.html">Ver otras opciones...</a>
                     </p>
                 </aside>
 
@@ -89,17 +104,17 @@
 
         <div class="footer-container">
             <footer class="wrapper">
-                <img id="team-logo-ft" src="img/blacksun_logo.png" title="Sol Negro Team" alt="Sol Negro Team">
+                <img id="team-logo-ft" src="./img/blacksun_logo.png" title="Sol Negro Team" alt="Sol Negro Team">
                 <h3>Copyright</h3>
                 <a href="http://html-color-codes.info" title="HTML color codes">HTML color codes</a>
             </footer>
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="./js/plugins.js"></script>
+        <script src="./js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

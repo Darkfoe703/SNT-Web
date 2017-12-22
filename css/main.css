@@ -92,6 +92,10 @@ body {
     color: white;
 }
 
+.footer-container {
+    margin-top: 3%;
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
@@ -143,7 +147,7 @@ nav a:hover {
 
 .main aside {
     color: white;
-    padding: 0px 5% 10px;
+    padding: 0px 2% 10px;
     margin-top: 3%;
 }
 
@@ -194,7 +198,7 @@ article p {
 }
 
 article li {
-    margin-left: 5%;
+    margin-left: 10%;
     padding-left: 1%;
 }
 
@@ -202,7 +206,45 @@ article img {
     width: 55%;
     max-width: 70%;
     float: left;
-    padding-right: 2%;
+    padding: 2.5%;
+    padding-left: 0;
+}
+
+aside a {
+    color: #00F54B;
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+aside a:visited {
+    color: #00AAF5;
+}
+
+aside p {
+    text-align: justify;
+}
+
+.btn-index {
+    display: inline-block;
+    float: right;
+    border:0;
+    background: #00F54B;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 20px;
+    border-radius: 6px;
+    color:#000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-index:hover {
+    background: #00AAF5;
+    color: #000;
 }
 
 /*------------------------------
@@ -354,7 +396,7 @@ textarea {
 
     .main article {
         float: left;
-        width: 57%;
+        width: 65%;
     }
 
     .main aside {
