@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700,300,600&subset=latin,latin-ext);
 
 html {
-    color: #F2F2F2;
+    color: #E6E6E6;
     font-size: 1em;
     line-height: 1.4;
     background-color: #151515;
@@ -15,7 +15,7 @@ html {
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #B3D4FC;
     text-shadow: none;
 }
 
@@ -23,7 +23,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #CCC;
     margin: 1em 0;
     padding: 0;
 }
@@ -146,7 +146,7 @@ nav a:hover {
 }
 
 .main aside {
-    color: white;
+    color: #E6E6E6;
     padding: 0px 2% 10px;
     margin-top: 3%;
 }
@@ -169,7 +169,7 @@ nav a:hover {
    ========================================================================== */
 
 #team-logo {
-    max-width: 300px;
+    max-width: 270px;
     display: block;
     float: left;
 }
@@ -203,11 +203,15 @@ article li {
 }
 
 article img {
-    width: 55%;
-    max-width: 70%;
+    /*min-width: 200px;*/
+    width: 30%;
     float: left;
     padding: 2.5%;
     padding-left: 0;
+}
+
+footer {
+    overflow: hidden;
 }
 
 aside a {
@@ -226,8 +230,27 @@ aside a:visited {
 aside p {
     text-align: justify;
 }
+
+.img-front {
+    min-width: 200px;
+}
+
 /*------------------------------
-= Botón de descarga
+= Sección de glería en INDEX
+------------------------------*/
+.galeria {
+    padding: 3%;
+    overflow: hidden;
+}
+.galeria img {
+    background: #FFF;
+    padding: 6px;
+    border: solid 1px #000;
+    margin: 2px;
+
+}
+/*------------------------------
+= Botón de descarga en INDEX
 ------------------------------*/
 .btn-index {
     display: inline-block;
