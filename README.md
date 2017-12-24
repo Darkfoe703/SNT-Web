@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+### Sitio Web de "El Sol Negro Team"
 
 You can use the [editor on GitHub](https://github.com/Darkfoe703/SNT-Web/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
