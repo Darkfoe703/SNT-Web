@@ -396,9 +396,26 @@ textarea {
     border-radius: 50%;
 }
 
+.footer-container a {
+    color: #00F54B;
+    text-decoration: none;
+}
 
+.footer-container a:hover {
+    text-decoration: underline;
+}
 
+.img-bit {
+    width: 250px;
+    min-width: 200px;
+    float: none;
+    padding: 2px;
+    border: dashed #00F54B 5px;
+}
 
+.negrita {
+    font-weight: bold;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
