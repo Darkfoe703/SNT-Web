@@ -82,8 +82,7 @@
                     </header>
                     <section>
                         <h2>Galeria</h2>
-                        <div class="galeria">
-                            <a class="fancybox" rel="gallery1" href="./img/ip-email/01.png" title="Apliacaión detenida">
+                        <div class="galeria"><a class="fancybox" rel="gallery1" href="./img/ip-email/01.png" title="Apliacaión detenida">
                             <img src="./img/ip-email/01.png" alt="Apliacaión detenida" />
                             </a>
                             <a class="fancybox" rel="gallery1" href="./img/ip-email/04.png" title="Aplicación y Configuración">
@@ -98,8 +97,11 @@
                         </div>
                         <script type="text/javascript">
                             $(document).ready(function() {
-        $(".fancybox").fancybox();
-    });
+                                $(".fancybox").fancybox({
+                                    openEffect  : 'none',
+                                    closeEffect : 'none'
+                                });
+                            });
                         </script>
                     </section>
                     <section>
