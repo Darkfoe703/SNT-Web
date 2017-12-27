@@ -172,6 +172,7 @@ nav a:hover {
     max-width: 270px;
     display: block;
     float: left;
+    margin-right: 10px;
 }
 
 #team-logo-ft {
