@@ -172,14 +172,14 @@ nav a:hover {
     max-width: 270px;
     display: block;
     float: left;
-    margin-right: 25px;
+    margin-right: 22px;
 }
 
 #team-logo-ft {
     max-width: 150px;
     display: block;
     float: left;
-    margin-right: 25px;
+    margin-right: 22px;
 }
 
 article a {
@@ -419,6 +419,12 @@ textarea {
     font-weight: bold;
 }
 
+.precios {
+    color: #00F54B;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
 .img-cc {
     max-width: 100px;
     border-width:0;
@@ -428,6 +434,8 @@ textarea {
     float: center;
     margin: 5px;
     margin-top: 0px;
+    margin-left: 23px;
+    margin-bottom: 20px;
     padding: 0px;
     max-width: 125px;
     min-width: 125px;
