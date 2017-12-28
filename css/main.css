@@ -179,6 +179,7 @@ nav a:hover {
     max-width: 150px;
     display: block;
     float: left;
+    margin-right: 10px;
 }
 
 article a {
@@ -417,6 +418,21 @@ textarea {
 .negrita {
     font-weight: bold;
 }
+
+.img-cc {
+    max-width: 100px;
+    border-width:0;
+}
+
+.pago-btn {
+    float: center;
+    margin: 5px;
+    margin-top: 0px;
+    padding: 0px;
+    max-width: 125px;
+    min-width: 125px;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
