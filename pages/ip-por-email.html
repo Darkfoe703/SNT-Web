@@ -88,7 +88,17 @@
                                 <a class="various" data-fancybox-type="iframe" href="./pago-lin.html"><button type="submit"><img src="../img/btn/tux.png" alt="Descarga para GNU/Linux">GNU /Linux</button></a>
                                 <a class="various" data-fancybox-type="iframe" href="./pago-win.html"><button type="submit"><img src="../img/btn/windows.png" alt="Descarga para Windows"><br>Windows</button></a>
 
-                                <script src="../js/various-fancy.js"></script>
+                                <script>
+                            $(".various").fancybox({
+    helpers : {
+        overlay : {
+            css : {
+                'background' : 'rgba( 7, 25, 7, 0.95)'
+            }
+        }
+    }
+});
+                        </script>
                             
                         </div>
                             
